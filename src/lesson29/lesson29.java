@@ -8,5 +8,6 @@ public class lesson29 {
         car car2 = new car("tesla");
         garage.park(car1);
         garage.park(car2);
+
     }
 }

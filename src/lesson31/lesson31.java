@@ -9,6 +9,7 @@ public class lesson31 {
 
         bicycle bike = new bicycle();
         bike.stop();
+        // bike.go();
 
         System.out.println(car.speed);
         System.out.println(bike.speed);

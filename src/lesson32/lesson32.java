@@ -7,5 +7,6 @@ public class lesson32 {
         dog32 dog = new dog32();
         animal.speak();
         dog.speak();
+
     }
 }

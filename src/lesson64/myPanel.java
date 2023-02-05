@@ -34,11 +34,11 @@ public class myPanel extends JPanel {
         // g2D.fillArc(0, 0, 100, 100, 180, 180);
 
         // vẽ tam giác
-        // int[] xPoint = { 150, 250, 350 };
-        // int[] yPoint = { 300, 150, 300 };
-        // g2D.setPaint(Color.pink);
-        // g2D.drawPolygon(xPoint, yPoint, 3);
-        // g2D.fillPolygon(xPoint, yPoint, 3);
+        int[] xPoint = { 150, 250, 350 };
+        int[] yPoint = { 300, 150, 300 };
+        g2D.setPaint(Color.pink);
+        g2D.drawPolygon(xPoint, yPoint, 3);
+        g2D.fillPolygon(xPoint, yPoint, 3);
 
         // viết chữ
         g2D.setPaint(Color.red);

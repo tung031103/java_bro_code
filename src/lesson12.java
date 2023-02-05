@@ -20,7 +20,7 @@ public class lesson12 {
         // } else {
         // System.out.println("you are still playing the game *pew pew");
         // }
-        if (!response.equals("q") && !response.equals("Q")) {
+        if (!response.equalsIgnoreCase("q") && !response.equalsIgnoreCase("Q")) {
             System.out.println("you are still playing the game *pew pew");
         } else {
             System.out.println("you quit the game");
