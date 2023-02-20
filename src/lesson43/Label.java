@@ -1,5 +1,6 @@
 package lesson43;
 
+import java.awt.*;
 import java.awt.Font;
 import java.awt.Color;
 
@@ -36,7 +37,7 @@ public class Label {
         JFrame frame = new JFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         // frame.setSize(500, 500);
-        // frame.setLayout(null);
+        frame.setLayout(new BorderLayout());
         frame.setVisible(true);
         frame.add(label);
         frame.pack();
