@@ -10,7 +10,7 @@ public class ID_Password {
     ID_Password() { // constructor(hàm tạo)
         loginInfo.put("Tung", "bread");
         loginInfo.put("Tungbs", "Password");
-        loginInfo.put("TungDev", "xyz123");
+        loginInfo.put("Tungls", "xyz123");
     }
 
     protected HashMap getLoginInfo() {
