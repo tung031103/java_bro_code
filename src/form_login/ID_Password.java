@@ -11,6 +11,8 @@ public class ID_Password {
         loginInfo.put("Tung", "bread");
         loginInfo.put("Tungbs", "Password");
         loginInfo.put("Tungls", "xyz123");
+        loginInfo.put("abcxyz", "123456@");
+
     }
 
     protected HashMap getLoginInfo() {

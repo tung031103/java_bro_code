@@ -20,7 +20,6 @@ public class SerializaFile {
             fos.close();
             return true;
         } catch (Exception e) {
-            // TODO: handle exception
             e.printStackTrace();
         }
         return false;
@@ -36,7 +35,6 @@ public class SerializaFile {
             ois.close();
             fis.close();
         } catch (Exception e) {
-            // TODO: handle exception
             e.printStackTrace();
         }
         return dsKH;

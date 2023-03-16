@@ -7,6 +7,8 @@ import java.util.HashMap;
 
 import javax.swing.*;
 
+import lesson63.game;
+
 public class loginPage implements ActionListener {
 
     JFrame frame = new JFrame("Form login");
@@ -73,7 +75,10 @@ public class loginPage implements ActionListener {
                     messageLabel.setForeground(Color.green);
                     messageLabel.setText("Login successful");
                     frame.dispose();
-                    welcomPage welcomPage = new welcomPage(userID);
+                    // welcomPage welcomPage = new welcomPage(userID);
+                    // GameFrame gameFrame = new GameFrame(userID);
+                    tic_tac_toe tic_tac_toe = new tic_tac_toe(userID);
+
                 } else {
                     messageLabel.setForeground(Color.red);
                     messageLabel.setText("Wrong password");

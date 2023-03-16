@@ -4,8 +4,8 @@ public class interpolation_search {
     public static void main(String[] args) {
         // tìm kiếm nội suy O(log(log(n)))
 
-        int[] array = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
-        int index = interpolationSearch(array, 8);
+        int[] array = { 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024 };
+        int index = interpolationSearch(array, 128);
         if (index != -1) {
             System.out.println("Element found at index: " + index);
         } else {
@@ -18,7 +18,7 @@ public class interpolation_search {
         int low = 0;
 
         while (value >= array[low] && value <= array[high] && low <= high) {
-            int probe = (high - low) * (value - array[low]) / (array[high] - array[low]);
+            int probe = low + (high - low) * (value - array[low]) / (array[high] - array[low]);
             System.out.println("probe: " + probe);
             if (array[probe] == value) {
                 return probe;
